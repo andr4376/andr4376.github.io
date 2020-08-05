@@ -1,1 +1,247 @@
-<h1>Testio</h1>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+    <!-- TYPOGRAPHI -->
+    <h2 class="text-center">Typographi</h2>
+    <div class="container">
+          <h1><del>h1 healdline, redacted with "del" element</del> <small>Small Text inside an h1, using "small" element</small></h1>
+<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, libero? Ea, blanditiis, nihil a iure, quis ut fugit sunt vel nulla dignissimos possimus iusto dolorum dolorem ipsa. Saepe, ad officiis!</p>
+
+          <p>Lorem <u> underlined text using "u" element</u>
+               Cum illum quasi, minus, labore, recusandae nostrum ipsa illo dolorem saepe
+                nisi <mark> highlighted text using "mark" elemet</mark>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum molestias suscipit mollitia iste minus, accusamus harum assumenda omnis sequi velit repellendus quasi nisi ipsam? Odio cupiditate non eum commodi officiis.</p>
+   
+            <hr>
+            
+        <!-- ALIGNMENT and TRANSFORMATION -->          
+        <p class="text-left"> Left aligned text</p>
+        <p class="text-center"> center aligned text</p>
+        <p class="text-right"> right aligned text</p>
+        <p class="text-justify"> justified  text</p>
+        <p class="text-nowrap"> no wrap text text</p>
+
+        <p class="text-lowercase"> Text that Is FORCED TO BE LOWERCASE</p>
+        <p class="text-uppercase"> uppercase text</p>
+        <p class="text-capitalize"> capitalizes each word with css bootstrap class</p>
+
+        <!-- Quick Floats -->
+        <div class="float-right">Div "floated" to right</div>
+        <div class="float-left">Div "floated" to left</div>
+
+        <!-- CLEAR FLOAT -->
+        <div class="clearfix"></div>
+
+        <hr>
+
+        <!-- Block quotes -->
+        <h2 class="text-center">Block quote</h2>
+
+        <blockquote class ="blockquote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam provident dicta officia porro ratione quisquam asperiores voluptates illo neque! Deserunt dolorum, harum recusandae amet sequi ad necessitatibus dolore et voluptate.</p>
+            <footer class="blockquote-footer">Quote by <cite title="John Doe">John Doe</cite></footer>       
+        </blockquote>
+
+        <hr>
+
+        <!-- Lists -->
+        <h2 class="text-center">Lists</h2>
+        <ul >
+            <p>normal list</p>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>            
+        </ul>
+
+        <ul class="list-unstyled" >
+                <p>unstyled list</p>
+                <li>item 1</li>
+                <li>item 2</li>
+                <li>item 3</li>            
+            </ul>
+
+            
+        <ul class="list-inline" >
+                <p>inline list</p>
+                <li class="list-inline-item">item 1</li>
+                <li class="list-inline-item">item 2</li>
+                <li class="list-inline-item">item 3</li>            
+            </ul>
+
+            <!-- code -->
+            <h2 class="text-center">Code</h2>
+            <code>&lt;h1&gt;Show code example!&lt;/h1&gt;</code>
+
+            <br>
+            To use node package manager to install Ionic, write <kbd>nmp install Ionic</kbd>
+
+            <br>
+            To win free money, press <kbd>alt</kbd>+<kbd>F4</kbd>
+
+            <hr>
+
+            <h2 class="text-center">Colors</h2>
+            <!-- Contextual colors -->
+            <p class="text-primary">primary text</p>
+            <p class="text-success">success text</p>
+            <p class="text-warning">warning text</p>
+            <p class="text-danger">Danger text</p>
+
+            <!-- Background colors-->
+            <p class="bg-primary">Text with primary background</p>
+            <p class="bg-success">Text with success background</p>
+            <p class="bg-warning">Text with warning background</p>
+            <p class="bg-danger">Text with danger background</p>
+
+
+    </div>
+
+    <hr>
+
+    <!--Forms-->
+    <h2 class="text-center">Form</h2>
+    <div class="container">
+
+        <form>
+            <div class="form-group">
+                <label>Name</label>
+                <input type="text" class="form-control" placeholder="write name">
+            </div>
+             <div class="form-group">
+                <label>Email</label>
+                <input type="email" class="form-control" placeholder="write email">
+            </div>
+            <div class="form-group">
+                    <label>Message</label>
+                   <textarea class="form-control" placeholder="write message"></textarea>
+                </div>
+                <div class="form-group">
+                        <label>Do u eat brocolia</label>
+                       <select class="form-control" >
+                        <option value="yee">yee</option>
+                        <option value="naa">naa</option>
+                        <option value="skidaddle">skidaddle</option>
+                       </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Upload image</label>
+                        <br>
+                        <input type="file">
+                        <p class="help-block">only good images accepted</p>
+                    </div>
+
+                    <div class="form-group">
+                            <label>
+                                <input type="checkbox"> u dabbin bro?
+                            </label>
+                        </div>
+
+           <button type="submit" class="btn btn-primary">submit</button>
+        </form>
+    </div>
+<hr>
+<h2 class="text-center">Inline form</h2>
+    <div class="container">
+            <form class="form-inline">
+                    <label class="sr-only" for="inlineFormInputName2">Name</label>
+                    <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Jane Doe">
+                  
+                    <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
+                    <div class="input-group mb-2 mr-sm-2">
+                      <div class="input-group-prepend">
+                        <div class="input-group-text">@</div>
+                      </div>
+                      <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Username">
+                    </div>
+                  
+                    <div class="form-check mb-2 mr-sm-2">
+                      <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+                      <label class="form-check-label" for="inlineFormCheck">
+                        Remember me
+                      </label>
+                    </div>
+                  
+                    <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                  </form>
+    </div>
+
+    <hr>
+
+    <h2 class="text-center">Tables</h2>
+
+    <div class="container">
+            <table class="table table-striped table-hover">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr class= "table-danger">
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                    </tbody>
+                  </table>
+    </div>
+
+    <hr>
+    <h2 class="text-center">Collums!</h2>
+
+    <div class="row">
+          <div class="col-md-7 offset-md-1"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi assumenda ut optio impedit perferendis quos quam ipsa. Autem sint, deleniti a mollitia, dignissimos amet saepe nobis vel cum quo necessitatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, facilis ducimus maxime quod adipisci officia sunt blanditiis inventore quas, ipsum eius perferendis, quos exercitationem maiores? Consequatur inventore veniam corrupti ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, odit hic delectus aliquam repellat deleniti provident voluptate aperiam et at natus excepturi perspiciatis similique error, voluptatibus rerum asperiores porro perferendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis autem voluptatem rem saepe id placeat minus, illo eos quibusdam nobis blanditiis dignissimos explicabo doloremque obcaecati eius veniam dolor quod itaque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi ab optio esse illum omnis! Fugiat provident obcaecati beatae dolores eaque enim quam id nemo, quae, at ullam sit odit quos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus a similique quod architecto quisquam quibusdam alias dolorum voluptatem deleniti soluta pariatur eveniet ut mollitia rem sequi cumque, in saepe odit.</p></div>
+          <div class="col-md-3"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa quasi nulla numquam eius sequi, distinctio quisquam provident optio veniam debitis, aliquid delectus iure molestiae blanditiis, dolore aspernatur! Voluptates, recusandae maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum molestias eos est dolorem accusamus. Fugiat, accusantium consequuntur. Eveniet eos accusantium illo ipsa obcaecati quae voluptatem! Asperiores vel rem iusto quaerat.</p></div>
+          </div>
+          <div class="row">
+              <div class="col-md-7 offset-md-1"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi assumenda ut optio impedit perferendis quos quam ipsa. Autem sint, deleniti a mollitia, dignissimos amet saepe nobis vel cum quo necessitatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, facilis ducimus maxime quod adipisci officia sunt blanditiis inventore quas, ipsum eius perferendis, quos exercitationem maiores? Consequatur inventore veniam corrupti ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, odit hic delectus aliquam repellat deleniti provident voluptate aperiam et at natus excepturi perspiciatis similique error, voluptatibus rerum asperiores porro perferendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis autem voluptatem rem saepe id placeat minus, illo eos quibusdam nobis blanditiis dignissimos explicabo doloremque obcaecati eius veniam dolor quod itaque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi ab optio esse illum omnis! Fugiat provident obcaecati beatae dolores eaque enim quam id nemo, quae, at ullam sit odit quos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus a similique quod architecto quisquam quibusdam alias dolorum voluptatem deleniti soluta pariatur eveniet ut mollitia rem sequi cumque, in saepe odit.</p></div>
+              <div class="col-md-3"><img  style='height: 100%; width: 100%; object-fit: contain' src="https://ih0.redbubble.net/image.427647207.7122/flat,550x550,075,f.jpg"></div>  
+                </div>
+                <br><br>
+                <div class="row">
+                        <div class="col-md-5 offset-md-1"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi assumenda ut optio impedit perferendis quos quam ipsa. Autem sint, deleniti a mollitia, dignissimos amet saepe nobis vel cum quo necessitatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, facilis ducimus maxime quod adipisci officia sunt blanditiis inventore quas, ipsum eius perferendis, quos exercitationem maiores? Consequatur inventore veniam corrupti ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, odit hic delectus aliquam repellat deleniti provident voluptate aperiam et at natus excepturi perspiciatis similique error, voluptatibus rerum asperiores porro perferendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis autem voluptatem rem saepe id placeat minus, illo eos quibusdam nobis blanditiis dignissimos explicabo doloremque obcaecati eius veniam dolor quod itaque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi ab optio esse illum omnis! Fugiat provident obcaecati beatae dolores eaque enim quam id nemo, quae, at ullam sit odit quos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus a similique quod architecto quisquam quibusdam alias dolorum voluptatem deleniti soluta pariatur eveniet ut mollitia rem sequi cumque, in saepe odit.</p></div>
+                        <div class="col-md-5"><img  style='height: 100%; width: 100%; object-fit: contain' src="https://i.kym-cdn.com/photos/images/original/001/318/758/bbe.png"></div>  
+                          </div>
+
+                          <br><br>
+                          <div class="row">
+                                  <div class="col-md-2 offset-md-1"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi assumenda ut optio impedit perferendis quos quam ipsa. Autem sint, deleniti a mollitia, dignissimos amet saepe nobis vel cum quo necessitatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, facilis ducimus maxime quod adipisci officia sunt blanditiis inventore quas, ipsum eius perferendis, quos exercitationem maiores? Consequatur inventore veniam corrupti ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, odit hic delectus aliquam repellat deleniti provident voluptate aperiam et at natus excepturi perspiciatis similique error, voluptatibus rerum asperiores porro perferendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis autem voluptatem rem saepe id placeat minus, illo eos quibusdam nobis blanditiis dignissimos explicabo doloremque obcaecati eius veniam dolor quod itaque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi ab optio esse illum omnis! Fugiat provident obcaecati beatae dolores eaque enim quam id nemo, quae, at ullam sit odit quos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus a similique quod architecto quisquam quibusdam alias dolorum voluptatem deleniti soluta pariatur eveniet ut mollitia rem sequi cumque, in saepe odit.</p></div>
+                                  <div class="col-md-8"><img  style='height: 100%; width: 100%; object-fit: contain' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS82_SvoohOwt2c5ANAR1DZ3pKy79h5cX_eJoDwjspt5kpIxKuKzQ"></div>  
+                                    </div>
+    <div style="height:400px"></div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
